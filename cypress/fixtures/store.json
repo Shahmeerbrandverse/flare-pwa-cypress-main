@@ -1,0 +1,64 @@
+{
+  "merchant": {
+    "bvid": "34d74041-ec57-4495-884b-4d8e1b008080",
+    "profile": {
+      "uid": "0x4cfa6e"
+    }
+  },
+  "categories": [
+    {
+      "bvid": "b345992a-3713-4497-a9d4-419976ccb69b",
+      "sortOrder": 1
+    },
+    {
+      "bvid": "51e11120-a042-4ca4-9c32-ff98c8c2fefe",
+      "sortOrder": 2
+    },
+    {
+      "bvid": "f8e7dc0f-82ba-4777-9ee8-ec5f0f4f6477",
+      "sortOrder": 3
+    },
+    {
+      "bvid": "1698b39d-cb6e-4674-8912-1594d8d1b96e",
+      "sortOrder": 4
+    }
+  ],
+"cart": {
+  "items": [
+    {
+      "product": {
+        "__typename": "Product",
+        "name": "New home keychain",
+        "barcode": "not-IgT",
+        "manufacturerCode": null,
+        "productType": "NonGtin",
+        "fileType": null,
+        "slug": null,
+        "prescriptionRequired": null,
+        "bvid": "c950d56c-3583-4b2f-badd-d35fa71bb036",
+        "images": [
+          {
+            "__typename": "Image",
+            "url": "https://chikoo.imgix.net/merchants-production/48b2c4b6-cbc3-4d76-a4f3-f3a09bda562a/products/1632976774858/1632976774858.jpg?ixlib=js-3.7.0&dpi=96&s=c7253b8346fd675216c3f5d11cb74786",
+            "thumbnailUrl": "https://chikoo.imgix.net/merchants-production/48b2c4b6-cbc3-4d76-a4f3-f3a09bda562a/products/1632976774858/1632976774858.jpg?ixlib=js-3.7.0&w=230&dpi=96&s=9a68707a8f5e1be1dd96cd5f85a2a970"
+          }
+        ],
+        "price": 540,
+        "quantity": null,
+        "discountedPrice": null,
+        "preOrderTime": null,
+        "prepaidOnly": false,
+        "variantsCount": 0,
+        "variants": null
+      },
+      "id": "c950d56c-3583-4b2f-badd-d35fa71bb036",
+      "count": 1,
+      "uuid": "2058b3d1-989e-439e-bc05-d4c170260f6b"
+    }
+  ],
+  "voucher": null,
+  "subTotal": "540.00",
+  "unDiscountedSubTotal": "540.00",
+  "shouldDelete": false
+}
+}

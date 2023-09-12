@@ -1,0 +1,91 @@
+{
+  "merchant": {
+    "bvid": "d216a295-d69a-4496-ac1a-cc443fc9897d",
+    "profile": {
+      "uid": "0x4cfae2"
+    }
+  },
+  "categories": [
+    {
+      "bvid": "e4d521a0-8864-48ba-a63c-8199d1c38df7",
+      "sortOrder": 1
+    },
+    {
+      "bvid": "7b2ce8dc-b103-4251-80d3-a14af247a9e6",
+      "sortOrder": 2
+    },
+    {
+      "bvid": "c04f7667-c81f-4551-8e7c-e216ae533909",
+      "sortOrder": 3
+    },
+    {
+      "bvid": "147400bd-e42c-4c5b-ab88-a59d77e194a5",
+      "sortOrder": 4
+    }
+  ],
+  "cart": {
+    "items": [
+      {
+        "product": {
+          "__typename": "Product",
+          "name": "Omelettu",
+          "gtin": null,
+          "barcode": "not-E9l",
+          "manufacturerCode": null,
+          "bvid": "5e962aab-161d-498f-875e-11f693ebc061",
+          "description": "Omelettu",
+          "images": [
+            {
+              "__typename": "Image",
+              "url": "https://storage.googleapis.com/chikoo-images/merchants-production/d216a295-d69a-4496-ac1a-cc443fc9897d/products/1632978827838/1632978827849.jpg",
+              "thumbnailUrl": "https://storage.googleapis.com/chikoo-images/merchants/d216a295-d69a-4496-ac1a-cc443fc9897d/products/1632978827838/thumbnails/1632978828078.jpg"
+            }
+          ],
+          "price": 190,
+          "quantity": null,
+          "discountedPrice": null,
+          "preOrderTime": null,
+          "prepaidOnly": false,
+          "undiscountedOriginalPrice": 190,
+          "comment": ""
+        },
+        "id": "5e962aab-161d-498f-875e-11f693ebc061",
+        "count": 5,
+        "uuid": "af5bc062-bfdb-4f5b-a0c5-acec63a0c1cd"
+      },
+      {
+        "product": {
+          "__typename": "Product",
+          "name": "Pancakes",
+          "gtin": null,
+          "barcode": "not-ZrT",
+          "manufacturerCode": null,
+          "bvid": "5d38578e-fcea-4633-bf3d-21ba85d06dec",
+          "description": "Pancakes",
+          "images": [
+            {
+              "__typename": "Image",
+              "url": "https://storage.googleapis.com/chikoo-images/merchants-production/d216a295-d69a-4496-ac1a-cc443fc9897d/products/1632978959619/1632978959621.jpg",
+              "thumbnailUrl": "https://storage.googleapis.com/chikoo-images/merchants/d216a295-d69a-4496-ac1a-cc443fc9897d/products/1632978959619/thumbnails/1632978959790.jpg"
+            }
+          ],
+          "price": 360,
+          "quantity": null,
+          "discountedPrice": null,
+          "preOrderTime": null,
+          "prepaidOnly": false,
+          "undiscountedOriginalPrice": 360,
+          "comment": ""
+        },
+        "id": "5d38578e-fcea-4633-bf3d-21ba85d06dec",
+        "count": 3,
+        "uuid": "e23d0156-85d2-40a3-ba48-f14bb168ce5e"
+      }
+    ],
+    "voucher": null,
+    "subTotal": "2030.00",
+    "unDiscountedSubTotal": "2030.00",
+    "taxAmount": 0,
+    "shouldDelete": false
+  }
+}

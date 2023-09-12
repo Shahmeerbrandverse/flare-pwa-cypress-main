@@ -1,0 +1,102 @@
+{
+  "storeTimings": [
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Monday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Tuesday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Wednesday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Thursday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Friday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Saturday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Sunday",
+      "isOpen": true
+    }
+  ],
+  "deliveryTimings": [
+    {
+      "opensAt": "05:00",
+      "closesAt": "17:00",
+      "day": "Monday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Tuesday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Wednesday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Thursday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "18:00",
+      "closesAt": "23:00",
+      "day": "Friday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Saturday",
+      "isOpen": true
+    },
+    {
+      "opensAt": "09:00",
+      "closesAt": "17:00",
+      "day": "Sunday",
+      "isOpen": true
+    }
+  ],
+  "customerDetails": {
+    "username": "+92332002471",
+    "pin": "0000",
+    "address": "Suit 103, Tariq Center, Tariq Road Karachi",
+    "email": "Abc@gmail.com",
+    "newNumber": "3182002471",
+    "existingNumber": "332002471",
+    "customerName": "Not Real Restaurant",
+    "giftReceiver": "Chikoo",
+    "giftingAddress": "Suit 103, Tariq Center, Tariq Road Karachi"
+  }
+
+}

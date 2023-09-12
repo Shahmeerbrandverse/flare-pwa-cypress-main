@@ -1,0 +1,77 @@
+{
+  "production": {
+    "pulseUrl": "https://pulse.versify.app/",
+    "phoenixUrl": "https://phoenix.versify.app/"
+  },
+  "alpha": {
+    "pulseUrl": "https://pulse.alpha.versify.app/",
+    "phoenixUrl": "https://phoenix.alpha.versify.app/"
+  },
+  "local": {
+    "pulseUrl": "http://localhost:4700/",
+    "phoenixUrl": "http://localhost:4510/"
+  },
+  "restaurant-production": {
+    "baseUrl": "https://not-real-rest.chikoo.app",
+    "merchantSlug": "not-real-rest",
+    "username": "+923180000023",
+    "pin": "3965",
+    "productMainOptionBvid": "9851c0ae-8f8d-4caa-8519-9ec50f38dc87",
+    "productSubOptionBvid": "8ffd0ee8-6515-4a29-b2b7-547ce484bf80"
+  },
+  "restaurant-alpha": {
+    "baseUrl": "https://not-real-rest.alpha.chikoo.app",
+    "merchantSlug": "not-real-rest",
+    "username": "+923180000023",
+    "pin": "3965",
+    "productBvid": ""
+  },
+  "restaurant-local": {
+    "baseUrl": "http://not-real-rest.chikoo.app/",
+    "merchantSlug": "not-real-rest",
+    "username": "+923180000023",
+    "pin": "3965"
+  },
+  "store-production": {
+    "baseUrl": "https://not-real-store.chikoo.app",
+    "merchantSlug": "not-real-store",
+    "username": "+923180000022",
+    "pin": "3965"
+  },
+  "store-alpha": {
+    "baseUrl": "https://not-real-store.alpha.chikoo.app",
+    "merchantSlug": "not-real-store",
+    "username": "+923180000022",
+    "pin": "3965"
+  },
+  "store-local": {
+    "baseUrl": "http://not-real-store.localhost:3200/",
+    "merchantSlug": "not-real-store",
+    "username": "+923180000022",
+    "pin": "3965"
+  },
+  "master-restaurant-local": {
+    "baseUrl": "https://notrealresmulti.alpha.chikoo.app/",
+    "merchantSlug": "notRealResMulti",
+    "username": "+923180000024",
+    "pin": "0000",
+    "productBvid": ""
+  },
+  
+    "master-restaurant-alpha": {
+      "baseUrl": "https://notrealresmulti.alpha.chikoo.app/",
+      "merchantSlug": "notRealResMulti",
+      "username": "+923180000024",
+      "pin": "0000",
+      "productBvid": ""
+    },
+    
+      "reporter": "mochawesome",
+      "reporterOptions": {
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      }
+    
+}

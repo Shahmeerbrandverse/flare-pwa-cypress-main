@@ -1,0 +1,39 @@
+{
+  "name": "flare-pwa-cypress",
+  "version": "1.0.0",
+  "description": "Cypress tests for Flare PWA",
+  "private": true,
+  "scripts": {
+    "cy:store-local": "npx cypress run -e TAGS=@store,environment=local",
+    "cy:restaurant-local": "npx cypress run -e TAGS=@restaurant,environment=local",
+    "cy:store-alpha": "npx cypress run -e TAGS=@store,environment=alpha",
+    "cy:restaurant-alpha": "npx cypress run -e TAGS=@restaurant,environment=alpha",
+    "cy:restaurant-production": "npx cypress run -e TAGS=@restaurant,environment=production",
+    "cy:all-local": "yarn cy:store-local && yarn cy:restaurant-local",
+    "cy:current-store": "npx cypress run -e TAGS=@store-current,environment=local",
+    "cy:current-restaurant": "npx cypress run -e TAGS=@restaurant-current,environment=local",
+    "cy:smoke-restaurant": "npx cypress run -e TAGS=@restaurant-smoke,environment=production",
+    "cy:smoke-store": "npx cypress run -e TAGS=@store-smoke,environment=production",
+    "cy:smoke-all": "yarn cy:smoke-store && yarn cy:smoke-restaurant ",
+    "cy:report-after-run-alpha": "npx cypress run -e TAGS=@store,environment=alpha",
+    "cy:report-after-run-production": "npx cypress run -e TAGS=@restaurant,environment=production",
+    "cypress:run": "cypress run -e TAGS=@store,environment=alpha",
+    "cy:master-restaurant-local": "npx cypress run -e TAGS=@master-restaurant,environment=local",
+    "cy:master-restaurant-alpha": "npx cypress run -e TAGS=@master-restaurant,environment=alpha"
+  },
+  "devDependencies": {
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "@types/node": "^16.9.3",
+    "cucumber": "^6.0.7",
+    "cypress": "^8.3.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "typescript": "^4.4.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/step_definitions"
+  }
+}
